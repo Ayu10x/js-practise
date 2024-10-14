@@ -40,5 +40,34 @@ const myfunc = function(){
     console.log("hello World!!");
 }
 
-console.log(typeof myfunc);
-console.log(typeof id)
+// console.log(typeof myfunc);
+// console.log(typeof id)
+
+
+// **************************
+
+// Stack (Primitive) - copy, Heap (Non-Primitive) - reference
+
+let myYoutubename = "ayu10x"
+let anotherName = "myYoutubename"
+anotherName = "chaiAurCode"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let user1 = {
+    email :"user@google.com",
+    upiId:"user@ybl"
+}
+
+console.log(user1);
+let user2 = user1
+// here user2 references to user1 (uses the same memory location)
+
+user2.email = "ayush@google.com"
+
+console.log(user1);
+console.log(user2);
+
+// yahan dono user change hojayenge
+// As they are referred to a same memory location
