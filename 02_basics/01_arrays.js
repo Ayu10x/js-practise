@@ -1,5 +1,7 @@
 // arrays
 
+// JavaScript arrays are resizable and can contain a mix of different datatypes.
+
 const myArr = [0, 1, 2, 3]
 // console.log(myArr);
 
